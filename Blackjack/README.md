@@ -1,6 +1,6 @@
 # Simplified Blackjack #
 
-This application is a simple version of the card game, Blackjack with a tkinter GUI.
+This application offers a simplified version of the popular card game, Blackjack, featuring a GUI built with tkinter. Designed for easy play and accessibility, this version pits the player against the dealer in a straightforward battle of card values, aiming to achieve the closest total to 21 without going over.
 
 ## Rules ##
 
@@ -28,3 +28,11 @@ A round will go through the following process:
 The dealer plays automatically, choosing to hit while their hand's value is less than 17. (i.e. The dealer automatically stands on 17 and above.)
 
 5. If the player and dealer both avoided a bust, then the hand with the highest value wins the game. If they have the same hand value, the hand is a tie (push).
+
+## Runing the program ##
+
+* Launch a terminal;
+
+* Navigate to the directory where `blackjack.py` resides;
+
+* Usage: `python3 blackjack.py`
